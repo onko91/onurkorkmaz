@@ -1,0 +1,32 @@
+{
+    "home": {
+        "title": "Hi, I'm Onur!",
+        "description": "I am a developer from Germany. Since I got my first computer when I was 13 years old I got interested in software development. First very simple HTML pages, then a few forms with PHP. Today I am a versatile developer with a high level of knowledge in both frontend and backend. I am a strong team player and enjoy taking on project management roles.",
+        "current-work-text": "Current job:",
+        "current-work": "Software Solution Architect & Engineer",
+        "languages-text": "Languages:",
+        "languages": "German, English, Turkish"
+    },
+    "cv":{
+        "work": "Career",
+        "education": "education",
+        "further": "further education"
+    },
+    "skills": {
+        "frontend-title": "Frontend",
+        "frontend-text": "It's not just HTML, CSS and JavaScript like it used to be. I love this part when I can prepare data visually.",
+        "backend-title": "Backend",
+        "backend-text": "This is where the data for the frontend is prepared. I can live clean code and clean architecture here!",
+        "devops-title": "DevOps / project management",
+        "devops-text": "A part of the work that should not be underestimated. Often the guarantor of project success."
+    },
+    "navbar":{
+        "home": "Homepage",
+        "cv": "Curriculum vitae",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "contact": {
+        "me": "Contact me via:"
+    }
+}
