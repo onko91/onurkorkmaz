@@ -13,6 +13,15 @@ function switchLanguage(lang: any){
   i18n.locale.value = lang
 }
 
+import { useAuth0 } from '@auth0/auth0-vue';
+const auth0 = useAuth0();
+function logout(){
+  auth0.logout({
+    logoutParams: {
+      returnTo: window.location.origin
+    }
+  })
+}
 </script>
 <template>
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -47,6 +56,7 @@ function switchLanguage(lang: any){
       <a class="navbar-item" href="#cv">{{ $t('navbar.cv') }}</a>
       <a class="navbar-item" href="#skills">{{ $t('navbar.skills') }}</a>
       <a class="navbar-item" href="#contact">{{ $t('navbar.contact') }}</a>
+      <a class="navbar-item" @click="logout">Logout</a>
     </div>
   </nav>
 </template>
