@@ -12,7 +12,7 @@ const app = createApp(App)
 app.use(
     createAuth0({
       domain: "onur-korkmaz.eu.auth0.com",
-      clientId: "26nJ4gVsHDKE0AOXT1upNRnf0IqENJSN"
+      clientId: "26nJ4gVsHDKE0AOXT1upNRnf0IqENJSN",
       authorizationParams: {
         redirect_uri: window.location.origin
       }
