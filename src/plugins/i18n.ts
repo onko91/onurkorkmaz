@@ -4,17 +4,17 @@ import de from '@/i18n/de.json'
 import en from '@/i18n/en.json'
 
 export const instance = createI18n({
-    legacy: false,
-    locale: 'de',
-    fallbackLocale: 'en',
-    messages: {
-        de,
-        en
-    }
+  legacy: false,
+  locale: 'de',
+  fallbackLocale: 'en',
+  messages: {
+    de,
+    en
+  }
 })
 
 export const useI18n = (app: App) => {
-    app.use(instance)
+  app.use(instance)
 }
 
 export const i18n = instance.global

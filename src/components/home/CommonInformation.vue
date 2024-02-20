@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Common } from '@/types/types'
-import SubInformation from './SubInformation.vue';
+import SubInformation from './SubInformation.vue'
 const store = defineProps<Common>()
 </script>
 <template>

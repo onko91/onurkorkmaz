@@ -2,10 +2,10 @@
 import type { TimelineEntry as TimelineEntryType } from '@/types/types'
 import TimelineItem from './TimelineItem.vue'
 import TimelineTag from './TimelineTag.vue'
-defineProps<{ 
-  headline: string,
+defineProps<{
+  headline: string
   items: TimelineEntryType[]
-  initialYear: Number 
+  initialYear: Number
 }>()
 </script>
 

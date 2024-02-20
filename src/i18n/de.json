@@ -1,32 +1,32 @@
 {
-    "home": {
-        "title": "Hi, ich bin Onur!",
-        "description": "Ich bin ein Entwickler aus Deutschland. Seit dem ich meinen ersten Computer mit 13 Jahren erhalten habe ging es los mit dem Interesse für die Softwareentwicklung. Zuerst ganz einfache HTML-Seiten, dann ein paar Formulare mit PHP. Heute bin ich ein vielseitiger Entwickler mit einem hohen Wissensbereich sowohl im Frontend und Backend. Ich bin ein starker Teamplayer und übernehme gerne die Projektleitung.",
-        "current-work-text": "Aktuelle Tätigkeit:",
-        "current-work": "Software Solution Architect & Engineer",
-        "languages-text": "Sprachen:",
-        "languages": "Deutsch, Englisch, Türkisch"
-    },
-    "cv":{
-        "work": "Werdegang",
-        "education": "Ausbildung",
-        "further": "Weiterbildung"
-    },
-    "skills": {
-        "frontend-title": "Frontend",
-        "frontend-text": "Ist nicht nur HTML, CSS und JavaScript wie früher. Ich liebe diesen Teil, wenn ich Daten visuell aufbereiten kann.",
-        "backend-title": "Backend",
-        "backend-text": "Hier werden die Daten für das Frontend aufbereitet. Hier kann ich Clean Code und Clean Architecture leben!",
-        "devops-title": "DevOps / Projektmanagement",
-        "devops-text": "Ein nicht zu unterschätzender Teil der Arbeit. Oft der Garant für den Projekterfolg."
-    },
-    "navbar":{
-        "home": "Startseite",
-        "cv": "Lebenslauf",
-        "skills": "Fähigkeiten",
-        "contact": "Kontakt"
-    },
-    "contact": {
-        "me": "Kontaktiere mich über:"
-    }
+  "home": {
+    "title": "Hi, ich bin Onur!",
+    "description": "In meiner langjährigen Tätigkeit in der Softwareentwicklung habe ich nicht nur ein tiefgehendes Verständnis für komplexe Softwarearchitekturen entwickelt, sondern auch ein breites Know-how in verschiedenen Programmiersprachen erworben. Diese Erfahrung ermöglicht es mir, nicht nur innovative, sondern auch praxisorientierte Lösungen zu entwerfen und umzusetzen. Als erfahrener Softwareentwickler habe ich nicht nur erfolgreich in verschiedenen Technologiestacks gearbeitet, sondern auch Projekte geleitet. Diese Doppelrolle hat mir nicht nur ermöglicht, technische Herausforderungen zu bewältigen, sondern auch eine klare Vision für die Integration von Softwarelösungen in größere Projektzusammenhänge zu entwickeln. Meine Ambition und Neugier zeichnen mich aus. Als hochmotivierter und lernbereiter Mensch bin ich stets bereit, mein Wissen und meine Fähigkeiten in einem praktischen Umfeld zu erweitern. Meine starken analytischen Fähigkeiten ermöglichen es mir, schnell Probleme zu identifizieren und effektive Lösungen zu entwickeln.",
+    "current-work-text": "Aktuelle Tätigkeit:",
+    "current-work": "Software Solution Architect & Engineer",
+    "languages-text": "Sprachen:",
+    "languages": "Deutsch, Englisch, Türkisch"
+  },
+  "cv": {
+    "work": "Werdegang",
+    "education": "Ausbildung",
+    "further": "Weiterbildung"
+  },
+  "skills": {
+    "frontend-title": "Frontend",
+    "frontend-text": "Ist nicht nur HTML, CSS und JavaScript wie früher. Ich liebe diesen Teil, wenn ich Daten visuell aufbereiten kann.",
+    "backend-title": "Backend",
+    "backend-text": "Hier werden die Daten für das Frontend aufbereitet. Hier kann ich Clean Code und Clean Architecture leben!",
+    "devops-title": "DevOps / Projektmanagement",
+    "devops-text": "Ein nicht zu unterschätzender Teil der Arbeit. Oft der Garant für den Projekterfolg."
+  },
+  "navbar": {
+    "home": "Startseite",
+    "cv": "Lebenslauf",
+    "skills": "Fähigkeiten",
+    "contact": "Kontakt"
+  },
+  "contact": {
+    "me": "Kontaktiere mich über:"
+  }
 }

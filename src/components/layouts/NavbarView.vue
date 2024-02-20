@@ -9,19 +9,10 @@ function toggleNavbar() {
 
 const langs = ['de', 'en']
 
-function switchLanguage(lang: any){
+function switchLanguage(lang: any) {
   i18n.locale.value = lang
 }
 
-import { useAuth0 } from '@auth0/auth0-vue';
-const auth0 = useAuth0();
-function logout(){
-  auth0.logout({
-    logoutParams: {
-      returnTo: window.location.origin
-    }
-  })
-}
 </script>
 <template>
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -41,13 +32,18 @@ function logout(){
       </a>
     </div>
     <div class="navbar-menu is-justify-content-end" :class="{ 'is-active': isActive }">
-
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          {{$i18n.locale}}
+          {{ $i18n.locale }}
         </a>
         <div class="navbar-dropdown">
-          <a v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang" class="navbar-item" @click="switchLanguage(lang)">
+          <a
+            v-for="(lang, i) in langs"
+            :key="`Lang${i}`"
+            :value="lang"
+            class="navbar-item"
+            @click="switchLanguage(lang)"
+          >
             {{ lang }}
           </a>
         </div>
@@ -56,7 +52,6 @@ function logout(){
       <a class="navbar-item" href="#cv">{{ $t('navbar.cv') }}</a>
       <a class="navbar-item" href="#skills">{{ $t('navbar.skills') }}</a>
       <a class="navbar-item" href="#contact">{{ $t('navbar.contact') }}</a>
-      <a class="navbar-item" @click="logout">Logout</a>
     </div>
   </nav>
 </template>

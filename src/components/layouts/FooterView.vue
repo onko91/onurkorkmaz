@@ -1,7 +1,7 @@
 <template>
   <footer id="contact" class="footer">
     <div class="content has-text-centered">
-      <p>{{ $t("contact.me") }}</p>
+      <p>{{ $t('contact.me') }}</p>
       <a class="mr-2" href="https://www.xing.com/profile/Onur_Korkmaz20" target="_blank"
         ><i class="fa-brands fa-2x fa-square-xing mr-1"></i
       ></a>

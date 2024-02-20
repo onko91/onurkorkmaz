@@ -1,32 +1,32 @@
 {
-    "home": {
-        "title": "Hi, I'm Onur!",
-        "description": "I am a developer from Germany. Since I got my first computer when I was 13 years old I got interested in software development. First very simple HTML pages, then a few forms with PHP. Today I am a versatile developer with a high level of knowledge in both frontend and backend. I am a strong team player and enjoy taking on project management roles.",
-        "current-work-text": "Current job:",
-        "current-work": "Software Solution Architect & Engineer",
-        "languages-text": "Languages:",
-        "languages": "German, English, Turkish"
-    },
-    "cv":{
-        "work": "Career",
-        "education": "education",
-        "further": "further education"
-    },
-    "skills": {
-        "frontend-title": "Frontend",
-        "frontend-text": "It's not just HTML, CSS and JavaScript like it used to be. I love this part when I can prepare data visually.",
-        "backend-title": "Backend",
-        "backend-text": "This is where the data for the frontend is prepared. I can live clean code and clean architecture here!",
-        "devops-title": "DevOps / project management",
-        "devops-text": "A part of the work that should not be underestimated. Often the guarantor of project success."
-    },
-    "navbar":{
-        "home": "Homepage",
-        "cv": "Curriculum vitae",
-        "skills": "Skills",
-        "contact": "Contact"
-    },
-    "contact": {
-        "me": "Contact me via:"
-    }
+  "home": {
+    "title": "Hi, I'm Onur!",
+    "description": "In my many years of working in software development, I have not only developed a deep understanding of complex software architectures, but have also acquired broad expertise in various programming languages. This experience enables me to design and implement not only innovative but also practice-oriented solutions. As an experienced software developer, I have not only worked successfully in various technology stacks, but also managed projects. This dual role has enabled me not only to overcome technical challenges, but also to develop a clear vision for the integration of software solutions into larger project contexts. I am characterized by my ambition and curiosity. As a highly motivated and eager learner, I am always willing to expand my knowledge and skills in a hands-on environment. My strong analytical skills enable me to quickly identify problems and develop effective solutions.",
+    "current-work-text": "Current job:",
+    "current-work": "Software Solution Architect & Engineer",
+    "languages-text": "Languages:",
+    "languages": "German, English, Turkish"
+  },
+  "cv": {
+    "work": "Career",
+    "education": "education",
+    "further": "further education"
+  },
+  "skills": {
+    "frontend-title": "Frontend",
+    "frontend-text": "It's not just HTML, CSS and JavaScript like it used to be. I love this part when I can prepare data visually.",
+    "backend-title": "Backend",
+    "backend-text": "This is where the data for the frontend is prepared. I can live clean code and clean architecture here!",
+    "devops-title": "DevOps / project management",
+    "devops-text": "A part of the work that should not be underestimated. Often the guarantor of project success."
+  },
+  "navbar": {
+    "home": "Homepage",
+    "cv": "Curriculum vitae",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "contact": {
+    "me": "Contact me via:"
+  }
 }

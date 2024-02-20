@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { SubInfo } from '@/types/types'
-defineProps<{items: SubInfo[]}>()
+defineProps<{ items: SubInfo[] }>()
 </script>
 <template>
   <div v-for="(item, index) in items" :key="index">
