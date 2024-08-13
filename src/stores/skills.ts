@@ -27,13 +27,14 @@ export const useSkillsStore = defineStore({
             'JavaScript',
             'TypeScript',
             'Vue.js',
+            'React',
             'Bootstrap',
             'Bulma',
             'Tailwind'
           ],
           datasets: [
             {
-              data: [100, 95, 90, 80, 85, 95, 80, 90],
+              data: [100, 95, 90, 80, 85, 80, 95, 80, 90],
               fill: true,
               backgroundColor: 'rgba(85, 115, 254, 0.2)',
               borderColor: 'rgb(85, 115, 254)',

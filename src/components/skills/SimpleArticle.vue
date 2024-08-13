@@ -3,7 +3,7 @@ import type { Article } from '@/types/types'
 defineProps<Article>()
 </script>
 <template>
-  <p>
+  <p class="has-text-centered">
     <strong>{{ title }}</strong>
   </p>
   <p class="has-text-justified">{{ text }}</p>

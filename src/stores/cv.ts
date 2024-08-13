@@ -13,7 +13,7 @@ export const useCvStore = defineStore({
         {
           active: true,
           range: 'Seit 12/2022',
-          title: 'Senior Software Solution Architect & Engineer',
+          title: 'Software Solution Architect',
           location: 'Cognizant Mobility GmbH'
         },
         {
@@ -69,13 +69,6 @@ export const useCvStore = defineStore({
         }
       ],
       further: [
-        {
-          active: false,
-          icon: 'fa-brands fa-aws is-dark',
-          range: 'Prüfungsvorbereitung 2024',
-          title: 'AWS Certified Solutions Architect - Associate',
-          location: 'Amazon'
-        },
         {
           active: false,
           icon: 'fa-certificate',
